@@ -15,6 +15,7 @@ do all the following in the project directory:
   * `psexec.exe`
 * run `python -m pip install pycryptodomex`
 * run `python main.py`
+*tested on my windows 11 machine with a local account*
   
 ---
 
