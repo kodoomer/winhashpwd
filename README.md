@@ -4,7 +4,7 @@ a little project that allows you to view and modify the password hash of a windo
 do all the following in the project directory:
 * [download psexec (or psexec64)](https://learn.microsoft.com/en-us/sysinternals/downloads/psexec) and rename it to psexec.exe
 * run command prompt as administrator
-* run `psexec.exe -s -i regedit.exe`
+* run `regedit.exe`
 * in the registry editor go to `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa`
 * press `CTRL+P`, select "Microsoft Print to PDF" and save to a file
 * create a file `lsa.txt` and copy all the text from the pdf file to it
