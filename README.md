@@ -9,9 +9,19 @@ do all the following in the project directory:
 * press `CTRL+P`, select "Microsoft Print to PDF" and save to a file
 * create a file `lsa.txt` and copy all the text from the pdf file to it
 * delete the pdf file and close the registry editor
+* **the folder contents should look the following**
+  * `main.py`
+  * `lsa.txt`
+  * `psexec.exe`
 * run `python -m pip install pycryptodomex`
 * run `python main.py`
+  
 ---
+
 the hash has to be a MD4 hash of a UTF-16-LE encoded password string
 #### beware 
 there are no checks in the program to make sure you dont mess anything up!
+
+---
+most of the information about how windows stores passwords has been taken from [endermanch](https://github.com/Endermanch) and [his script](https://github.com/Endermanch/scripts/blob/main/sam/samviewer.py) \
+**none of the code was used**
