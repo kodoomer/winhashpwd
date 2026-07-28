@@ -111,7 +111,7 @@ og_nt_hash2 = cipher[0].decrypt(og_nt_hash2[:8]) + cipher[1].decrypt(og_nt_hash2
 
 print("NT hash (NT):", og_nt_hash2.hex())
 
-print("Start with \"p:\" to enter a password instead. (ex. p!mylogin)")
+print("Start with \"p:\" to enter a password instead. (ex. p:mylogin)")
 nt_hash = input("Enter new NT hash: ")
 if nt_hash.startswith('p:'):
     nt_hash = MD4.new(nt_hash[2:].encode('utf-16-le')).hexdigest()
