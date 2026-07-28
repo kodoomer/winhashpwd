@@ -19,7 +19,8 @@ do all the following in the project directory:
   
 ---
 
-the hash has to be a MD4 hash of a UTF-16-LE encoded password string
+the hash has to be a MD4 hash of a UTF-16-LE encoded password string \
+this program **only works with the password and NOT the pin**
 #### beware 
 there are no checks in the program to make sure you dont mess anything up!
 
