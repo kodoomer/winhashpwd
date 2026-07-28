@@ -20,7 +20,8 @@ do all the following in the project directory:
 ---
 
 the hash has to be a MD4 hash of a UTF-16-LE encoded password string \
-this program **only works with the password and NOT the pin**
+this program **only works with the password and NOT the pin** \
+supports only the NT hash (typically windows vista+)
 #### beware 
 there are no checks in the program to make sure you dont mess anything up!
 
