@@ -1,4 +1,4 @@
-a little project that allows you to view and modify the password hash of a windows user
+a python script that allows you to view and modify the password hash of a windows user
 
 #### how to use
 do all the following in the project directory:
@@ -15,16 +15,16 @@ do all the following in the project directory:
   * `psexec.exe`
 * run `python -m pip install pycryptodomex`
 * run `python main.py` \
-*tested on my windows 11 machine with a local account*
+*tested on my windows 11 machine*
   
 ---
 
 the hash has to be a MD4 hash of a UTF-16-LE encoded password string \
-this program **only works with the password and NOT the pin** \
+this program only works with the password and NOT the pin \
 supports only the NT hash (typically windows vista+)
 #### beware 
 there are no checks in the program to make sure you dont mess anything up!
 
 ---
 most of the information about how windows stores passwords has been taken from [endermanch](https://github.com/Endermanch) and [his script](https://github.com/Endermanch/scripts/blob/main/sam/samviewer.py) \
-**none of the code was used**
+none of the code was used
